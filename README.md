@@ -9,6 +9,7 @@ This project uses Python and pre-trained Deep Learning models to identify dog br
 - `classify_images.py`: Uses pre-trained models to predict image labels.
 - `adjust_results4_isadog.py`: Determines if labels represent dogs using `dognames.txt`.
 - `calculates_results_stats.py`: Generates final accuracy and performance statistics.
+- `.txt` files: Contains results for different model architecture.
 
 ## Objectives
 1. **Dog vs. Non-Dog Detection:** Distinguish between dog images and other animals/objects.
@@ -34,3 +35,4 @@ The `check_images.py` script accepts several optional arguments to customize the
 To run the classifier using the **ResNet** architecture on a specific folder:
 ```bash
 python check_images.py --dir my_pet_images/ --arch resnet --dogfile dognames.txt
+```
