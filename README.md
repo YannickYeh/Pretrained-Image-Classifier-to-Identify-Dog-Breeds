@@ -20,3 +20,17 @@ This project uses Python and pre-trained Deep Learning models to identify dog br
    ```bash
    git clone [https://github.com/YannickYeh/Use-a-Pretrained-Image-Classifier-to-Identify-Dog-Breeds.git](https://github.com/YannickYeh/Use-a-Pretrained-Image-Classifier-to-Identify-Dog-Breeds.git)
    cd Use-a-Pretrained-Image-Classifier-to-Identify-Dog-Breeds
+## Command Line Arguments
+
+The `check_images.py` script accepts several optional arguments to customize the classification run.
+
+| Argument | Type | Default | Description |
+| :--- | :--- | :--- | :--- |
+| `--dir` | String | `pet_images/` | Path to the folder containing pet images. |
+| `--arch` | String | `vgg` | CNN model architecture to use (`vgg`, `resnet`, or `alexnet`). |
+| `--dogfile` | String | `dognames.txt` | Text file containing valid dog names for classification. |
+
+### Example Command
+To run the classifier using the **ResNet** architecture on a specific folder:
+```bash
+python check_images.py --dir my_pet_images/ --arch resnet --dogfile dognames.txt
