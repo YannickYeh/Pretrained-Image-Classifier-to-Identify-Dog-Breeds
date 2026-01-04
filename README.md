@@ -19,8 +19,8 @@ This project uses Python and pre-trained Deep Learning models to identify dog br
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YannickYeh/Use-a-Pretrained-Image-Classifier-to-Identify-Dog-Breeds.git](https://github.com/YannickYeh/Use-a-Pretrained-Image-Classifier-to-Identify-Dog-Breeds.git)
-   cd Use-a-Pretrained-Image-Classifier-to-Identify-Dog-Breeds
+   git clone [https://github.com/YannickYeh/Pretrained-Image-Classifier-to-Identify-Dog-Breeds.git](https://github.com/YannickYeh/Pretrained-Image-Classifier-to-Identify-Dog-Breeds.git)
+   cd Pretrained-Image-Classifier-to-Identify-Dog-Breeds
 ## Command Line Arguments
 
 The `check_images.py` script accepts several optional arguments to customize the classification run.
